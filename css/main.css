@@ -6,6 +6,15 @@ body {
 	margin: 20px;
 }
 
+header {
+	width: 100%;
+}
+
+header img {
+	width: 10%;
+	margin: 20px;
+}
+
 h1 {
 	font-family: 'Anton', sans-serif;
 	font-size: 1.5em;
@@ -15,6 +24,24 @@ h2 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.2em;
 	font-weight: bolder;
+}
+
+.gallery {
+	background: #666;
+	text-align: center;
+	padding: 5px;
+	border-bottom: solid 20px #BDE2DC;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery-float {
+
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
     
