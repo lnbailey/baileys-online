@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Bailey Family Album</title>
-	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald" rel="stylesheet">   
+	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body ng-app="FamilyApp">
-	<h1>Bailey Family Album</h1>
+
+	<header><img src="http://lndesigns.com/capstone/logo-baileys-online.png"></header>
 
 	<div ng-controller="GalleryCtrl">
-        <h2>Photo Gallery</h2>
-        <div></div>
+		<h2>Photo Gallery</h2>
+		<div class="gallery-float">
+			<div ng-repeat="photo in photos" class="gallery">
+				<p>{{photo.name}}<br>
+					<img src="{{photo.url}}" /><br>
+					{{photo.caption}}
+				</p>
+			</div>
+		</div>
 	</div>
 
 
 	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
 	<script type="text/javascript" src="/lib/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/lib/bower_components/angular/angular.min.js"></script>
-    <script src="/lib/bower_components/angular-route/angular-route.min.js"></script>
+	<script src="/lib/bower_components/angular/angular.min.js"></script>
+	<script src="/lib/bower_components/angular-route/angular-route.min.js"></script>
 	<script src="/javascripts/app.js"></script>
 	<script src="/javascripts/AppConstants.js"></script>
 	<script src="/javascripts/AppConfig.js"></script>
@@ -26,4 +35,5 @@
 	<script src="/javascripts/controllers/GalleryCtrl.js"></script>
 
 </body>
+
 </html>
