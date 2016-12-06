@@ -1,6 +1,16 @@
+@font-face{
+  font-family:Birch;
+  src: url('http://lndesigns.com/fonts/BirchStd.otf');
+}
+
+@font-face{
+  font-family:Alien_League;
+  src: url('http://lndesigns.com/fonts/ALIEN5.TTF');
+}
+
 body {
 	background: #BDE2DC;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.6em;
 	color: #fff;
 	margin: 20px;
@@ -16,18 +26,22 @@ header img {
 }
 
 h1 {
-	font-family: 'Anton', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Allan', cursive;
+	font-size: 2em;
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Allan', cursive;
+	font-size: 1.8em;
+}
+
+h3 {
 	font-size: 1.2em;
 	font-weight: bolder;
 }
 
 .gallery {
-	background: #666;
+	background: #333;
 	text-align: center;
 	padding: 5px;
 	border-bottom: solid 20px #BDE2DC;

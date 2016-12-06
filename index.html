@@ -3,7 +3,7 @@
 
 <head>
 	<title>Bailey Family Album</title>
-	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allan|Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -12,13 +12,13 @@
 	<header><img src="http://lndesigns.com/capstone/logo-baileys-online.png"></header>
 
 	<div ng-controller="GalleryCtrl">
-		<h2>Photo Gallery</h2>
+		<h1>Photo Gallery</h1>
 		<div class="gallery-float">
 			<div ng-repeat="photo in photos" class="gallery">
-				<p>{{photo.name}}<br>
-					<img src="{{photo.url}}" /><br>
-					{{photo.caption}}
-				</p>
+				<h2>{{photo.title}}</h2>
+					<img src="{{photo.url}}" />
+					<p>{{photo.caption}}</p>
+					<button ng-click="deletePhoto(photo.id)">DELETE</button>
 			</div>
 		</div>
 	</div>

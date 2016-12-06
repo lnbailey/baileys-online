@@ -22,6 +22,17 @@ app.factory("PhotoFactory", function($q, $http, FIREBASE_CONFIG) {
         });
     };
 
-    return { getPhotoList: getPhotoList };
+    var deletePhoto = function(photoId) {
+        return $q((resolve, reject) => {
+            $http.delete(`${FIREBASE_CONFIG.databaseURL}/photos/${photoId}.json`)
+                .success(function(deleteResponse) {
+                    resolve(deleteResponse);
+                })
+                .error(function(postError) {
+                    reject(postError);
+                });
+        });
+    };
+    return { getPhotoList: getPhotoList, deletePhoto: deletePhoto };
 
 });
