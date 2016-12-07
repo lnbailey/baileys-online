@@ -3,36 +3,35 @@
 
 <head>
 	<title>Bailey Family Album</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Allan|Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body ng-app="FamilyApp">
 
-	<header><img src="http://lndesigns.com/capstone/logo-baileys-online.png"></header>
+	<div ng-include="'/partials/nav.html'"></div>
 
-	<div ng-controller="GalleryCtrl">
-		<h1>Photo Gallery</h1>
-		<div class="gallery-float">
-			<div ng-repeat="photo in photos" class="gallery">
-				<h2>{{photo.title}}</h2>
-					<img src="{{photo.url}}" />
-					<p>{{photo.caption}}</p>
-					<button ng-click="deletePhoto(photo.id)">DELETE</button>
-			</div>
-		</div>
-	</div>
-
+	<div class="col-xs-offset-2 col-xs-8" ng-view></div>
 
 	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
 	<script type="text/javascript" src="/lib/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/lib/bower_components/angular/angular.min.js"></script>
 	<script src="/lib/bower_components/angular-route/angular-route.min.js"></script>
-	<script src="/javascripts/app.js"></script>
-	<script src="/javascripts/AppConstants.js"></script>
-	<script src="/javascripts/AppConfig.js"></script>
-	<script src="/javascripts/factories/PhotoFactory.js"></script>
-	<script src="/javascripts/controllers/GalleryCtrl.js"></script>
+
+	<script type="text/javascript" src="/javascripts/app.js"></script>
+	<script type="text/javascript" src="/javascripts/AppConstants.js"></script>
+	<script type="text/javascript" src="/javascripts/AppConfig.js"></script>
+	<script type="text/javascript" src="/javascripts/factories/AuthFactory.js"></script>
+	<script type="text/javascript" src="/javascripts/factories/PhotoFactory.js"></script>
+	<script type="text/javascript" src="/javascripts/factories/UserFactory.js"></script>
+	<script type="text/javascript" src="/javascripts/controllers/AuthCtrl.js"></script>
+	<script type="text/javascript" src="/javascripts/controllers/NavCtrl.js"></script>
+	<script type="text/javascript" src="/javascripts/controllers/GalleryCtrl.js"></script>
+	<script type="text/javascript" src="/javascripts/controllers/SearchCtrl.js"></script>
+	<script type="text/javascript" src="/javascripts/controllers/AboutCtrl.js"></script>
 
 </body>
 
