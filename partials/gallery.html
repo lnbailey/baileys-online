@@ -1,0 +1,11 @@
+<div ng-controller="GalleryCtrl">
+    <h1>Photo Gallery</h1>
+    <div class="gallery-float">
+        <div ng-repeat="photo in photos" class="gallery">
+            <h2>{{photo.title}}</h2>
+            <img src="{{photo.url}}" />
+            <p>{{photo.caption}}</p>
+            <button ng-click="deletePhoto(photo.id)">delete</button>
+        </div>
+    </div>
+</div>
