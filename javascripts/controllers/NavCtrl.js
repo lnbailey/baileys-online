@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("loaded NavCtrl.js");
-
 app.controller("NavCtrl", function($scope) {
     $scope.navItems = [
         {

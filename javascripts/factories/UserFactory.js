@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("loaded UserFactory.js");
-
 app.factory("UserFactory", function($q, $http, FIREBASE_CONFIG) {
 
     let addUser = (authData) => {

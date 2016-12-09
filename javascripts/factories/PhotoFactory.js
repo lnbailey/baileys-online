@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("loaded PhotoFactory.js");
-
 app.factory("PhotoFactory", function($q, $http, FIREBASE_CONFIG) {
 
     var getPhotoList = function() {

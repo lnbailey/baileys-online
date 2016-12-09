@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("loaded AppConfig.js");
-
 let isAuth = (AuthFactory) => new Promise((resolve, reject) => {
     if (AuthFactory.isAuthenticated()) {
         resolve();

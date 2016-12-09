@@ -1,3 +1,3 @@
 "use strict";
 
-console.log("loaded SearchCtrl.js");
+app.controller("SearchCtrl", function($scope) {});
