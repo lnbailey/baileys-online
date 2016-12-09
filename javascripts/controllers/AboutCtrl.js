@@ -1,3 +1,3 @@
 "use strict";
 
-console.log("loaded AboutCtrl.js");
+app.controller("AboutCtrl", function($scope) {});

@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("loaded GalleryCtrl.js");
-
 app.controller("GalleryCtrl", function ($scope, PhotoFactory) {
     $scope.photos = [];
 

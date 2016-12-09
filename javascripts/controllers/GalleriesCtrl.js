@@ -1,3 +1,3 @@
 "use strict";
 
-console.log("loaded GalleriesCtrl.js");
+app.controller("GalleriesCtrl", function($scope) {});
