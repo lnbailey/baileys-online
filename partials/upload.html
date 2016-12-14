@@ -1,3 +1,4 @@
+<!--Testing single Photo-->
 <div>
   <div>{{myPhoto.title}}</div>
   <img ng-src="{{myPhoto.image}}">
@@ -12,7 +13,22 @@
     <input type="text" placeholder="Title" id="imgTitle" ng-model="selectedFile.title">
   </div>
   <div>
-    <input type="text" placeholder="Caption" id="imgCapt" ng-model="selectedFile.caption">
+    <input type="text" placeholder="Name" id="imgName" ng-model="selectedFile.name">
+  </div>
+  <div>
+    <input type="text" placeholder="Location" id="imgLocation" ng-model="selectedFile.location">
+  </div>
+  <div>
+    <input type="text" placeholder="Event" id="imgEvent" ng-model="selectedFile.event">
+  </div>
+  <div>
+    <input type="text" placeholder="Keywords" id="imgKeywords" ng-model="selectedFile.keywords">
+  </div>
+  <div>
+    <input type="text" placeholder="Date" id="imgDate" ng-model="selectedFile.date">
+  </div>
+  <div>
+    <input type="text" placeholder="Caption" id="imgCaption" ng-model="selectedFile.caption">
   </div>
   <!--<button ng-click="uploadPhoto()">UPLOAD</button>-->
   <button ng-click="savePhoto()">SUBMIT</button>

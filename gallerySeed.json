@@ -1,273 +1,255 @@
 {
-	"photos": {
-		"photo1": {
-			"title": "Carol with puppy Terry",
-			"name": "Carol, Terry",
-			"location": "",
-			"event": "",
-			"keywords": "pets",
-			"date": "1970",
-			"caption": "Carol with puppy Terry",
-			"url": "https://firebasestorage.googleapis.com/v0/b/baileys-online.appspot.com/o/Carol1970.jpg?alt=media&token=64c3a3a5-dcdf-4c7e-8db2-15d5984ad770"
-		},
-		"photo2": {
-			"title": "Moving into Pegram house",
-			"name": "Carol, Susan, Ellen",
-			"location": "Pegram",
-			"event": "",
-			"keywords": "siblings",
-			"date": "1975",
-			"caption": "Look at that 70's style",
-			"url": "https://firebasestorage.googleapis.com/v0/b/baileys-online.appspot.com/o/BaileyGirls1977.jpg?alt=media&token=370867cd-8707-4af7-8572-1641da6e5675"
-		},
-		
-		"photo3": {
-			"title": "Cheatham Dam House",
-			"name": "Ellen, Wayne, Linda, Carol, Muffin, Hercules",
-			"location": "Ashland City",
-			"event": "",
-			"keywords": "siblings",
-			"date": "1985",
-			"caption": "Uh, yes, that was tanning bed days for Ellen",
-			"url": "http://lndesigns.com/capstone/cheatham-kids.jpg"
-		},
-		"photo4": {
-			"title": "Dad in Hurricane",
-			"name": "Dad",
-			"location": "Bermuda",
-			"event": "airforce",
-			"keywords": "airfoce",
-			"date": "1960",
-			"caption": "Dad flying in the eye of a hurricane in the Airforce",
-			"url": "http://lndesigns.com/capstone/dad-airforce.jpg"
-		},
-		"photo5": {
-			"title": "Dad in Alaska",
-			"name": "Dad",
-			"location": "Alaska",
-			"event": "",
-			"keywords": "airforce",
-			"date": "1955",
-			"caption": "Dad in Alaska, before he married Mom",
-			"url": "http://lndesigns.com/capstone/dad-alaska.jpg"
-		},
-		"photo6": {
-			"title": "Deal on Dad",
-			"name": "Dad",
-			"location": "Nashville",
-			"event": "thanksgiving",
-			"keywords": "",
-			"date": "2015",
-			"caption": "Dad taking a rest while we shop in World Market",
-			"url": "http://lndesigns.com/capstone/dad-deal.jpg"
-		},
-		"photo7": {
-			"title": "Dad in highwaters",
-			"name": "Dad",
-			"location": "Kingsport",
-			"event": "",
-			"keywords": "army",
-			"date": "1948",
-			"caption": "Not sure when this was",
-			"url": "http://lndesigns.com/capstone/Dad-highwaters.jpg"
-		},
-		"photo8": {
-			"title": "Dad Style",
-			"name": "Dad",
-			"location": "Pegram",
-			"event": "",
-			"keywords": "",
-			"date": "1976",
-			"caption": "On his way to work with 2 pencil pockets",
-			"url": "http://lndesigns.com/capstone/DadLeisureShirt.jpg",
-			"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1"
-		},
-		"photo9": {
-			"title": "Dad at Opryland",
-			"name": "Dad",
-			"location": "Opryland",
-			"event": "",
-			"keywords": "opryland",
-			"date": "1977",
-			"caption": "Oh the good ole' Opryland days",
-			"url": "http://lndesigns.com/capstone/DadOprylandSummer1977.jpg",
-			"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1"
-		},
-		"photo10": {
-			"title": "Jakob in Charlotte",
-			"name": "Ellen, Diane",
-			"location": "Charlotte",
-			"event": "Jakob Dylan",
-			"keywords": "shows",
-			"date": "2008",
-			"caption": "Diane and Ellen went with Carol and some guy, great show",
-			"url": "http://lndesigns.com/capstone/ellen-diane-jakob.jpg",
-			"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1"
-		},
-		"photo11": {
-			"title": "Ellen in Greece",
-			"name": "Ellen",
-			"location": "Athens, Greece",
-			"event": "honeymoon",
-			"keywords": "travel",
-			"date": "2000",
-			"caption": "Sitting on Mars Hill in Athens",
-			"url": "http://lndesigns.com/capstone/ellen-mars-hill.jpg",
-			"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1"
-		},
-		"photo12": {
-			"title": "Ellen and her monkey doll",
-			"name": "Ellen",
-			"location": "Tampa",
-			"event": "",
-			"keywords": "dolls",
-			"date": "1969",
-			"caption": "Mom found that doll in the attic!",
-			"url": "http://lndesigns.com/capstone/Ellen-monkey.jpg",
-			"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1"
-		},
-		"photo13": {
-			"title": "Ellen at the Parthenon",
-			"name": "Ellen",
-			"location": "Athens, Greece",
-			"event": "honeymoon",
-			"keywords": "travel",
-			"date": "2000",
-			"caption": "Standing in front of the Parthenon in Athens",
-			"url": "http://lndesigns.com/capstone/ellen-parthenon.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo14": {
-			"title": "Bailey Family 2009",
-			"name": "Mom, Dad, Wayne, Linda, Susan, Carol, Ellen",
-			"location": "Spring Hill",
-			"event": "photo shoot",
-			"keywords": "family",
-			"date": "2009",
-			"caption": "A rare photo shoot with the whole family",
-			"url": "http://lndesigns.com/capstone/family-2009.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo15": {
-			"title": "Sisters in 1984",
-			"name": "Linda, Susan, Carol, Ellen",
-			"location": "Pegram",
-			"event": "",
-			"keywords": "sisters",
-			"date": "1984",
-			"caption": "Sisters in 1984, I think",
-			"url": "http://lndesigns.com/capstone/GirlsBackyYard1981.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo16": {
-			"title": "Guitars Everywhere",
-			"name": "Dad, Jeremiah, Becky",
-			"location": "Pegram",
-			"event": "christmas",
-			"keywords": "guitars",
-			"date": "1982",
-			"caption": "Jeremiah with his Ovation, Dad with my guitars",
-			"url": "http://lndesigns.com/capstone/guitars.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo17": {
-			"title": "Bailey kids in Gatlinburg",
-			"name": "Wayne, Linda, Susan, Carol, Ellen",
-			"location": "Clingman's Dome, Gatlinburg",
-			"event": "vacation",
-			"keywords": "travel",
-			"date": "1970",
-			"caption": "A typical Bailey vacation, on Clingman's Dome",
-			"url": "http://lndesigns.com/capstone/kids-clingmans-dome.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo18": {
-			"title": "Big and Little sister",
-			"name": "Linda, Ellen",
-			"location": "Charleston",
-			"event": "",
-			"keywords": "horses, sisters",
-			"date": "1968",
-			"caption": "Ellen with big sister, Linda, I think at a petting zoo",
-			"url": "http://lndesigns.com/capstone/linda-ln.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo19": {
-			"title": "Trip to Opryland",
-			"name": "Linda, Bobby",
-			"location": "Opryland",
-			"event": "",
-			"keywords": "opryland",
-			"date": "1983",
-			"caption": "Linda with Bobby at Opryland",
-			"url": "http://lndesigns.com/capstone/LindaBobbyOpryland.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo20": {
-			"title": "Linda with stylin' boots",
-			"name": "Linda",
-			"location": "Pegram",
-			"event": "",
-			"keywords": "boots",
-			"date": "1976",
-			"caption": "I think Linda was still in school. Cute!",
-			"url": "http://lndesigns.com/capstone/LindaBoots.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo21": {
-			"title": "Linda singing at church",
-			"name": "Linda, Ephraim",
-			"location": "Freedom Chapel",
-			"event": "church",
-			"keywords": "guitars",
-			"date": "1978",
-			"caption": "Linda singing a song she wrote",
-			"url": "http://lndesigns.com/capstone/LindaNYE1979FreedomChapel.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo22": {
-			"title": "Sister 2009",
-			"name": "Linda, Susan, Carol, Ellen",
-			"location": "Spring Hill",
-			"event": "photo shoot",
-			"keywords": "sisters",
-			"date": "2009",
-			"caption": "Each one a differt personality",
-			"url": "http://lndesigns.com/capstone/sisters-2009.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo23": {
-			"title": "Tampa kids",
-			"name": "Wayne, Linda, Susan, Carol, Ellen",
-			"location": "Tampa",
-			"event": "",
-			"keywords": "beach, cars",
-			"date": "1968",
-			"caption": "Check out our VW bus in the background",
-			"url": "http://lndesigns.com/capstone/tampa-kids.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo24": {
-			"title": "Baby Wayne",
-			"name": "Wayne",
-			"location": "Bermuda",
-			"event": "",
-			"keywords": "cars",
-			"date": "1960",
-			"caption": "Cute little baby, Wayne",
-			"url": "http://lndesigns.com/capstone/wayne-1960-car.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo25": {
-			"title": "Wayne Fishing",
-			"name": "Wayne",
-			"location": "CA",
-			"event": "",
-			"keywords": "fishing",
-			"date": "1995",
-			"caption": "Not sure when this was, but he was fishing with Sherrye and Bobby",
-			"url": "http://lndesigns.com/capstone/wayne-fishing.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		}
+	"-KYvAg6H_x90lOd2Haim": {
+		"caption": "Test",
+		"image": "data:image/gif;base64,R0lGODlhEAAQANUAAAAAAN7WBMHa2H1iMkFBQbWuBICAgGZmAHt7exoaGvr+/X14Au3lBWZmZlpaWuLm5WlSKsa/BAgICCkpKfzzBVFRUYhrN3FtAuz5+NbPBBAQEB8fH8fe2722BIB8AzMzM3deMJBxOvrxBc3FBP///3VwAt7eAObm5mllAoSAA8ve3MTc2QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAAQABAAAAaZQJKQtAIYjRLVcJkAeAqjUWEhaSxJmkuAwu0GUJMhocQIAUJds6XkIJ00GbMRLQcMAALEBtDt9zcSDhAkfH5dAB0AGyAkBoV+AAYMAAmMBoRHR42TDh0GBI1Cl6EEEZEeCp+jqwQGKRInRpcGtLWXdyskFSWRq6IAJWFCHwcZmUZfABhLDgALHQEBHQsAEstXDxV71RMcCkNBADs=",
+		"title": "Smiley"
+	},
+	"photo10": {
+		"caption": "Diane and Ellen went with Carol and some guy, great show",
+		"date": "2008",
+		"event": "Jakob Dylan",
+		"keywords": "shows",
+		"location": "Charlotte",
+		"name": "Ellen, Diane",
+		"title": "Jakob in Charlotte",
+		"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1",
+		"image": "http://lndesigns.com/capstone/ellen-diane-jakob.jpg"
+	},
+	"photo11": {
+		"caption": "Sitting on Mars Hill in Athens",
+		"date": "2000",
+		"event": "honeymoon",
+		"keywords": "travel",
+		"location": "Athens, Greece",
+		"name": "Ellen",
+		"title": "Ellen in Greece",
+		"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1",
+		"image": "http://lndesigns.com/capstone/ellen-mars-hill.jpg"
+	},
+	"photo12": {
+		"caption": "Mom found that doll in the attic!",
+		"date": "1969",
+		"event": "",
+		"keywords": "dolls",
+		"location": "Tampa",
+		"name": "Ellen",
+		"title": "Ellen and her monkey doll",
+		"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1",
+		"image": "http://lndesigns.com/capstone/Ellen-monkey.jpg"
+	},
+	"photo13": {
+		"caption": "Standing in front of the Parthenon in Athens",
+		"date": "2000",
+		"event": "honeymoon",
+		"keywords": "travel",
+		"location": "Athens, Greece",
+		"name": "Ellen",
+		"title": "Ellen at the Parthenon",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/ellen-parthenon.jpg"
+	},
+	"photo14": {
+		"caption": "A rare photo shoot with the whole family",
+		"date": "2009",
+		"event": "photo shoot",
+		"keywords": "family",
+		"location": "Spring Hill",
+		"name": "Mom, Dad, Wayne, Linda, Susan, Carol, Ellen",
+		"title": "Bailey Family 2009",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/family-2009.jpg"
+	},
+	"photo15": {
+		"caption": "Sisters in 1984, I think",
+		"date": "1984",
+		"event": "",
+		"keywords": "sisters",
+		"location": "Pegram",
+		"name": "Linda, Susan, Carol, Ellen",
+		"title": "Sisters in 1984",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/GirlsBackyYard1981.jpg"
+	},
+	"photo16": {
+		"caption": "Jeremiah with his Ovation, Dad with my guitars",
+		"date": "1982",
+		"event": "christmas",
+		"keywords": "guitars",
+		"location": "Pegram",
+		"name": "Dad, Jeremiah, Becky",
+		"title": "Guitars Everywhere",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/guitars.jpg"
+	},
+	"photo17": {
+		"caption": "A typical Bailey vacation, on Clingman's Dome",
+		"date": "1970",
+		"event": "vacation",
+		"keywords": "travel",
+		"location": "Clingman's Dome, Gatlinburg",
+		"name": "Wayne, Linda, Susan, Carol, Ellen",
+		"title": "Bailey kids in Gatlinburg",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/kids-clingmans-dome.jpg"
+	},
+	"photo18": {
+		"caption": "Ellen with big sister, Linda, I think at a petting zoo",
+		"date": "1968",
+		"event": "",
+		"keywords": "horses, sisters",
+		"location": "Charleston",
+		"name": "Linda, Ellen",
+		"title": "Big and Little sister",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/linda-ln.jpg"
+	},
+	"photo19": {
+		"caption": "Linda with Bobby at Opryland",
+		"date": "1983",
+		"event": "",
+		"keywords": "opryland",
+		"location": "Opryland",
+		"name": "Linda, Bobby",
+		"title": "Trip to Opryland",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/LindaBobbyOpryland.jpg"
+	},
+	"photo20": {
+		"caption": "I think Linda was still in school. Cute!",
+		"date": "1976",
+		"event": "",
+		"keywords": "boots",
+		"location": "Pegram",
+		"name": "Linda",
+		"title": "Linda with stylin' boots",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/LindaBoots.jpg"
+	},
+	"photo21": {
+		"caption": "Linda singing a song she wrote",
+		"date": "1978",
+		"event": "church",
+		"keywords": "guitars",
+		"location": "Freedom Chapel",
+		"name": "Linda, Ephraim",
+		"title": "Linda singing at church",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/LindaNYE1979FreedomChapel.jpg"
+	},
+	"photo22": {
+		"caption": "Each one a differt personality",
+		"date": "2009",
+		"event": "photo shoot",
+		"keywords": "sisters",
+		"location": "Spring Hill",
+		"name": "Linda, Susan, Carol, Ellen",
+		"title": "Sister 2009",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/sisters-2009.jpg"
+	},
+	"photo23": {
+		"caption": "Check out our VW bus in the background",
+		"date": "1968",
+		"event": "",
+		"keywords": "beach, cars",
+		"location": "Tampa",
+		"name": "Wayne, Linda, Susan, Carol, Ellen",
+		"title": "Tampa kids",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/tampa-kids.jpg"
+	},
+	"photo24": {
+		"caption": "Cute little baby, Wayne",
+		"date": "1960",
+		"event": "",
+		"keywords": "cars",
+		"location": "Bermuda",
+		"name": "Wayne",
+		"title": "Baby Wayne",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/wayne-1960-car.jpg"
+	},
+	"photo25": {
+		"caption": "Not sure when this was, but he was fishing with Sherrye and Bobby",
+		"date": "1995",
+		"event": "",
+		"keywords": "fishing",
+		"location": "CA",
+		"name": "Wayne",
+		"title": "Wayne Fishing",
+		"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+		"image": "http://lndesigns.com/capstone/wayne-fishing.jpg"
+	},
+	"photo3": {
+		"caption": "Uh, yes, that was tanning bed days for Ellen",
+		"date": "1985",
+		"event": "",
+		"keywords": "siblings",
+		"location": "Ashland City",
+		"name": "Ellen, Wayne, Linda, Carol, Muffin, Hercules",
+		"title": "Cheatham Dam House",
+		"image": "http://lndesigns.com/capstone/cheatham-kids.jpg"
+	},
+	"photo4": {
+		"caption": "Dad flying in the eye of a hurricane in the Airforce",
+		"date": "1960",
+		"event": "airforce",
+		"keywords": "airfoce",
+		"location": "Bermuda",
+		"name": "Dad",
+		"title": "Dad in Hurricane",
+		"image": "http://lndesigns.com/capstone/dad-airforce.jpg"
+	},
+	"photo5": {
+		"caption": "Dad in Alaska, before he married Mom",
+		"date": "1955",
+		"event": "",
+		"keywords": "airforce",
+		"location": "Alaska",
+		"name": "Dad",
+		"title": "Dad in Alaska",
+		"image": "http://lndesigns.com/capstone/dad-alaska.jpg"
+	},
+	"photo6": {
+		"caption": "Dad taking a rest while we shop in World Market",
+		"date": "2015",
+		"event": "thanksgiving",
+		"keywords": "",
+		"location": "Nashville",
+		"name": "Dad",
+		"title": "Deal on Dad",
+		"image": "http://lndesigns.com/capstone/dad-deal.jpg"
+	},
+	"photo7": {
+		"caption": "Not sure when this was",
+		"date": "1948",
+		"event": "",
+		"keywords": "army",
+		"location": "Kingsport",
+		"name": "Dad",
+		"title": "Dad in highwaters",
+		"image": "http://lndesigns.com/capstone/Dad-highwaters.jpg"
+	},
+	"photo8": {
+		"caption": "On his way to work with 2 pencil pockets",
+		"date": "1976",
+		"event": "",
+		"keywords": "",
+		"location": "Pegram",
+		"name": "Dad",
+		"title": "Dad Style",
+		"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1",
+		"image": "http://lndesigns.com/capstone/DadLeisureShirt.jpg"
+	},
+	"photo9": {
+		"caption": "Oh the good ole' Opryland days",
+		"date": "1977",
+		"event": "",
+		"keywords": "opryland",
+		"location": "Opryland",
+		"name": "Dad",
+		"title": "Dad at Opryland",
+		"uid": "dWkl2jTHedMzoDLcVXtPWiY92lg1",
+		"image": "http://lndesigns.com/capstone/DadOprylandSummer1977.jpg"
 	}
 }
