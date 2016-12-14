@@ -1,12 +1,19 @@
 <div>
+  <div>{{myPhoto.title}}</div>
+  <img ng-src="{{myPhoto.image}}">
+</div>
+
+
+
+<div>
   <h1>Upload Photo</h1>
-  <input type="file" id="upload" fileread="fileInfo" required/>
+  <input type="file" id="upload" fileread="selectedFile.image" required/>
   <div>
-    <input type="text" placeholder="Title" id="imgTitle">
+    <input type="text" placeholder="Title" id="imgTitle" ng-model="selectedFile.title">
   </div>
   <div>
-    <input type="text" placeholder="Caption" id="imgCapt">
+    <input type="text" placeholder="Caption" id="imgCapt" ng-model="selectedFile.caption">
   </div>
-  <button ng-click="uploadPhoto()">UPLOAD</button>
+  <!--<button ng-click="uploadPhoto()">UPLOAD</button>-->
   <button ng-click="savePhoto()">SUBMIT</button>
 </div>
