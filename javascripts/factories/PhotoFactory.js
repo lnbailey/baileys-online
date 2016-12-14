@@ -20,6 +20,7 @@ app.factory("PhotoFactory", function($q, $http, FIREBASE_CONFIG) {
         });
     };
 
+// Only using for testing single photo
         var getSinglePhoto = function(photoId) {
         return $q((resolve, reject) => {
             $http.get(`${FIREBASE_CONFIG.databaseURL}/photos/${photoId}.json`)
@@ -32,13 +33,17 @@ app.factory("PhotoFactory", function($q, $http, FIREBASE_CONFIG) {
         });
     };
 
-    var addPhoto = function(stuffs){
+    var addPhoto = function(photo){
         return $q((resolve, reject) => {
             $http.post(`${FIREBASE_CONFIG.databaseURL}/photos.json`,
                 JSON.stringify({
-                    image: stuffs.image,
-                    title: stuffs.title,
-                    caption: stuffs.caption
+                    image: photo.image,
+                    name: photo.name,
+                    location: photo.location,
+                    event: photo.event,
+                    keywords: photo.keywords,
+                    date: photo.date,
+                    caption: photo.caption
                 })
             )
             .success(function(deleteResponse) {

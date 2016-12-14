@@ -3,7 +3,7 @@
     <div class="gallery-float">
         <div ng-repeat="photo in photos" class="gallery">
             <h2>{{photo.title}}</h2>
-            <img src="{{photo.url}}" />
+            <img src="{{photo.image}}" />
             <p>{{photo.caption}}</p>
             <button ng-click="deletePhoto(photo.id)">delete</button>
         </div>
