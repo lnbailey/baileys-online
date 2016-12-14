@@ -55,6 +55,11 @@ button {
 	font-size: 1em;
 	padding: 10px;
 	color: white;
+	cursor: pointer;
+	outline: none;
+}
+button:hover {
+	background: #99BF1C;
 }
 
 .button-green button {

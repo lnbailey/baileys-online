@@ -16,13 +16,12 @@ app.controller("AuthCtrl", function ($scope, $rootScope, $location, AuthFactory,
 
     let logMeIn = function (loginStuff) {
         AuthFactory.authenticate(loginStuff).then(function (didLogin) {
-            console.log("didLogin", didLogin);
             return UserFactory.getUser(didLogin.uid);
         }).then(function (userCreds) {
             $rootScope.user = userCreds;
             $scope.login = {};
             $scope.register = {};
-            $location.url("/gallery/");
+            $location.url("/upload/");
         });
     };
 
