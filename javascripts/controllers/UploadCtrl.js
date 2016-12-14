@@ -1,36 +1,27 @@
 "use strict";
 
-app.controller("GalleryCtrl", function ($scope, PhotoFactory) {
-// $scope.uploadPhotos = [];
+app.controller("UploadCtrl", function ($scope, PhotoFactory) {
 
-// let confirmUpload = function() {
-// 	var metadata = {
-// 		contentType: 'image',
-// 		customMetadata: {
-// 			'dogType': 'Lab',
-// 			'uploadedBy': user.uid,
-// 			'title': $("#imgTitle").val(),
-// 			'caption': $("#imgDesc").val()
-// 		},
-// 	};
-// 	var uploadTask = firebase.storage().ref().child('dogImages/' + selectedFile.name).put(selectedFile, metadata);
-// 	// Register three observers:
-// 	// 1. 'state_changed' observer, called any time the state changes
-// 	// 2. Error observer, called on failure
-// 	// 3. Completion observer, called on successful completion
-// 	uploadTask.on('state_changed', function(snapshot){
-//   		// Observe state change events such as progress, pause, and resume
-//   		// See below for more detail
-// 	}, function(error) {
-//   		// Handle unsuccessful uploads
-// 	}, function() {
-//   		// Handle successful uploads on complete
-//   		// For instance, get the download URL: https://firebasestorage.googleapis.com/...
-//   		$(".upload-group")[0].before("Success!");
-//   		$(".upload-group").hide();
+    $scope.uploadPhoto = function () {
 
-// 	});
+        // Capture the file name from user input
+        var selectedFile = $scope.fileInfo;
+        console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.fileInfo);
 
-            // console.log("confirmUpload function");
+        // Create a root reference
+        var storageRef = firebase.storage().ref('/images/');
 
-// });
+        // Create a reference to 'mountains.jpg'
+        var mountainsRef = storageRef.child(selectedFile);
+
+        // Create a reference to 'images/mountains.jpg'
+        var mountainImagesRef = storageRef.child('images/' + selectedFile);
+
+        // Base64 formatted string
+        var message = 'message';
+        mountainImagesRef.putString(message, 'base64').then(function (snapshot) {
+            console.log('Uploaded a base64 string!');
+        });
+
+    };
+});
