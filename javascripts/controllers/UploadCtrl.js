@@ -1,27 +1,23 @@
 "use strict";
 
 app.controller("UploadCtrl", function ($scope, PhotoFactory) {
+    $scope.selectedFile = {};
+    $scope.myPhoto = {};
+    
+    PhotoFactory.getSinglePhoto("-KYvAg6H_x90lOd2Haim").then(function(stuff){
+        console.log("STUFF", stuff);
+        $scope.myPhoto = stuff;
+    });
 
-    $scope.uploadPhoto = function () {
+    $scope.savePhoto = function () {
 
         // Capture the file name from user input
-        var selectedFile = $scope.fileInfo;
-        console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.fileInfo);
+        console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.selectedFile);
 
-        // Create a root reference
-        var storageRef = firebase.storage().ref('/images/');
+        // selectedFile.title = "hello";
 
-        // Create a reference to 'mountains.jpg'
-        var mountainsRef = storageRef.child(selectedFile);
-
-        // Create a reference to 'images/mountains.jpg'
-        var mountainImagesRef = storageRef.child('images/' + selectedFile);
-
-        // Base64 formatted string
-        var message = 'message';
-        mountainImagesRef.putString(message, 'base64').then(function (snapshot) {
-            console.log('Uploaded a base64 string!');
+        PhotoFactory.addPhoto($scope.selectedFile).then(function(response){
+            console.log(response);
         });
-
     };
 });

@@ -140,6 +140,15 @@ h3 {
     column-count: 2;
 }
 
+.form {
+	margin: 0 auto;
+	width: 600px;
+	text-align: right;
+	font-family: 'Birch';
+	font-size: 2em;
+	color: white;
+}
+
     
 
     

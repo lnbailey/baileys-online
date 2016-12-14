@@ -10,6 +10,7 @@ let isAuth = (AuthFactory) => new Promise((resolve, reject) => {
 
 app.run(function ($rootScope, $location, FIREBASE_CONFIG, AuthFactory) {
     firebase.initializeApp(FIREBASE_CONFIG);
+    var storage = firebase.storage();
 
     $rootScope.$on('$routeChangeStart', function (event, currRoute, prevRoute) {
 
