@@ -5,10 +5,10 @@ app.controller("UploadCtrl", function ($scope, PhotoFactory) {
     $scope.myPhoto = {};
     
     // Only using for testing single photo
-    PhotoFactory.getSinglePhoto("-KYvAg6H_x90lOd2Haim").then(function(singlePhoto){
-        console.log("singlePhoto", singlePhoto);
-        $scope.myPhoto = singlePhoto;
-    });
+    // PhotoFactory.getSinglePhoto("-KYvAg6H_x90lOd2Haim").then(function(singlePhoto){
+    //     console.log("singlePhoto", singlePhoto);
+    //     $scope.myPhoto = singlePhoto;
+    // });
 
     $scope.savePhoto = function () {
         // Capture the file name from user input

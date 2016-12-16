@@ -38,6 +38,10 @@ app.config(function ($routeProvider) {
             templateUrl: 'partials/gallery.html',
             controller: 'GalleryCtrl'
         })
+        .when('/edit', {
+            templateUrl: 'partials/edit.html',
+            controller: 'EditCtrl'
+        })
         .when('/galleries', {
             templateUrl: 'partials/galleries.html',
             controller: 'GalleryCtrl'
