@@ -1,11 +1,7 @@
-<div>
     <h1>Photo Gallery</h1>
-    <div class="gallery-float">
-        <div ng-repeat="photo in photos" class="gallery">
-            <h2>{{photo.title}}</h2>
+     <div class="gallery-main">
+        <div ng-repeat="photo in photos" class="item">
             <img src="{{photo.image}}" />
-            <p>{{photo.caption}}</p>
-            <button ng-click="deletePhoto(photo.id)">delete</button>
+            <p class="caption">{{photo.caption}}</p>
         </div>
     </div>
-</div>
