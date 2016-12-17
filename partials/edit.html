@@ -3,25 +3,25 @@
   <div ng-repeat="photo in photos" class="item">
     <img src="{{photo.image}}" />
     <div><label>Photo Title:</label>
-      <input type="text"  class="item" id="imgTitle" ng-model="photo.title">
+      <input type="text"  class="item-input" id="imgTitle" ng-model="photo.title">
     </div>
     <div><label>People in photo:</label>
-      <input type="text"  class="item" id="imgName" ng-model="photo.name">
+      <input type="text"  class="item-input" id="imgName" ng-model="photo.name">
     </div>
     <div><label>Location:</label>
-      <input type="text"  class="item" id="imgLocation" ng-model="photo.location">
+      <input type="text"  class="item-input" id="imgLocation" ng-model="photo.location">
     </div>
     <div><label>Event:</label>
-      <input type="text" class="item" id="imgEvent" ng-model="photo.event">
+      <input type="text" class="item-input" id="imgEvent" ng-model="photo.event">
     </div>
     <div><label>Keywords:</label>
-      <input type="text"  class="item" id="imgKeywords" ng-model="photo.keywords">
+      <input type="text"  class="item-input" id="imgKeywords" ng-model="photo.keywords">
     </div>
     <div><label>Date:</label>
-      <input type="text" p class="item" id="imgDate" ng-model="photo.date">
+      <input type="text" p class="item-input" id="imgDate" ng-model="photo.date">
     </div>
     <div><label>Caption:</label>
-      <input type="text" class="item" id="imgCaption" ng-model="photo.caption">
+      <input type="text" class="item-input" id="imgCaption" ng-model="photo.caption">
     </div>
     <button ng-click="editPhoto(photo.id)" class="itemButton">edit</button>
     <button ng-click="deletePhoto(photo.id)" class="itemButton">delete</button>

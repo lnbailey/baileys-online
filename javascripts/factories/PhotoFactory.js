@@ -38,6 +38,7 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
             $http.post(`${FIREBASE_CONFIG.databaseURL}/photos.json`,
                 JSON.stringify({
                     image: photo.image,
+                    title: photo.title,
                     name: photo.name,
                     location: photo.location,
                     event: photo.event,
@@ -73,6 +74,7 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
             $http.post(`${FIREBASE_CONFIG.databaseURL}/photos/${photo}.json`,
                 JSON.stringify({
                     image: photo.image,
+                    title: photo.title,
                     name: photo.name,
                     location: photo.location,
                     event: photo.event,
