@@ -1,5 +1,5 @@
-<h1>Search Photos</h1>
-<div class="form">
+<h1>Search Photo Gallery</h1>
+<!--<div class="form">
     <div>
         <label>title</label>
         <input type="text" placeholder="title" ng-model="photos.title">
@@ -28,4 +28,20 @@
         <label>caption</label>
         <input type="text" placeholder="caption" ng-model="photos.caption">
     </div>
-</div>
+</div>-->
+
+ <input type="text" class="form-control" placeholder="Search for ..." ng-model="searchText">
+     <div class="gallery-main">
+        <div ng-repeat="photo in photos | filter:searchText" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}<br>
+            Title: {{photo.title}}<br>
+            Name: {{photo.name}}<br>
+            Location: {{photo.location}}<br>
+            Event: {{photo.event}}<br>
+            Keywords: {{photo.keywords}}<br>
+            Date: {{photo.date}}<br>
+            Caption: {{photo.caption}}<br>
+            </p>
+        </div>
+    </div>
