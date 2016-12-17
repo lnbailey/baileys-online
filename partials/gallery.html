@@ -1,6 +1,9 @@
+ <input type="text" class="form-control" placeholder="Search for ..." ng-model="searchText">
+    
+    
     <h1>Photo Gallery</h1>
      <div class="gallery-main">
-        <div ng-repeat="photo in photos" class="item">
+        <div ng-repeat="photo in photos" | filter:{name:Mom} | filter:searchText" class="item">
             <img src="{{photo.image}}" />
             <p class="caption">{{photo.caption}}</p>
         </div>

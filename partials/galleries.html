@@ -1,1 +1,81 @@
-<h1>Galleries View</h1>
+<h1>Family Galleries</h1>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Ellen</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Ellen'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Carol</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Carol'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Susan</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Susan'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Linda</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Linda'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Wayne</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Wayne'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Mom</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Mom'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="galleries">
+    <div class="gallery">
+        <h2>Dad</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Dad'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>
+
+<!--<div class="galleries">
+    <div class="gallery">
+        <h2>Family</h2>
+        <div ng-repeat="photo in photos | filter:{name:'Family'}" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
+        </div>
+    </div>
+</div>-->

@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("GalleryCtrl", function ($scope, $routeParams,  $location, PhotoFactory) {
+app.controller("GalleryCtrl", function ($scope, $routeParams, $location, PhotoFactory) {
     
     // Get photos from Firebase
     $scope.photos = [];
