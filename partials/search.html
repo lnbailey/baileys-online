@@ -1,1 +1,47 @@
-<h1>Search View</h1>
+<h1>Search Photo Gallery</h1>
+<!--<div class="form">
+    <div>
+        <label>title</label>
+        <input type="text" placeholder="title" ng-model="photos.title">
+    </div>
+    <div>
+        <label>name</label>
+        <input type="text" placeholder="name" ng-model="photos.name">
+    </div>
+    <div>
+        <label>location</label>
+        <input type="text" placeholder="location" ng-model="photos.location">
+    </div>
+    <div>
+        <label>event</label>
+        <input type="text" placeholder="event" ng-model="photos.event">
+    </div>
+    <div>
+        <label>keywords</label>
+        <input type="text" placeholder="keywords" ng-model="photos.keywords">
+    </div>
+    <div>
+        <label>date</label>
+        <input type="text" placeholder="date" ng-model="photos.date">
+    </div>
+    <div>
+        <label>caption</label>
+        <input type="text" placeholder="caption" ng-model="photos.caption">
+    </div>
+</div>-->
+
+ <input type="text" class="form-control" placeholder="Search for ..." ng-model="searchText">
+     <div class="gallery-main">
+        <div ng-repeat="photo in photos | filter:searchText" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}<br>
+            Title: {{photo.title}}<br>
+            Name: {{photo.name}}<br>
+            Location: {{photo.location}}<br>
+            Event: {{photo.event}}<br>
+            Keywords: {{photo.keywords}}<br>
+            Date: {{photo.date}}<br>
+            Caption: {{photo.caption}}<br>
+            </p>
+        </div>
+    </div>

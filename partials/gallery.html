@@ -1,11 +1,10 @@
-<div ng-controller="GalleryCtrl">
+ <input type="text" class="form-control" placeholder="Search for ..." ng-model="searchText">
+    
+    
     <h1>Photo Gallery</h1>
-    <div class="gallery-float">
-        <div ng-repeat="photo in photos" class="gallery">
-            <h2>{{photo.title}}</h2>
-            <img src="{{photo.url}}" />
-            <p>{{photo.caption}}</p>
-            <button ng-click="deletePhoto(photo.id)">delete</button>
+     <div class="gallery-main">
+        <div ng-repeat="photo in photos" | filter:{name:Mom} | filter:searchText" class="item">
+            <img src="{{photo.image}}" />
+            <p class="caption">{{photo.caption}}</p>
         </div>
     </div>
-</div>

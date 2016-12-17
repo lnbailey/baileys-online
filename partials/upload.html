@@ -1,25 +1,32 @@
-<h1>Upload View</h1>
-
- <!--<div class="col-lg-6" id="uploadDiv">
-        <h2>Your favorite doge:</h2> <div class="dropdown favoriteDoge">
-          <button class="btn btn-primary dropdown-toggle" id="dogDrop" type="button" data-toggle="dropdown">Floof
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li><a href="#">Lab</a></li>
-            <li><a href="#">Terrier</a></li>
-            <li><a href="#">Floof</a></li>
-          </ul>
-        </div>
-        <h2>Upload Doge</h2>
-          <label class="myLabel" id="inputLabel">
-            <input type="file" id="upload" required/>
-            <span>Select File</span>
-          </label>
-          <div class="input-group upload-group">
-          <input type="text" placeholder="Image Title" id="imgTitle">
-          </div>
-          <div class="input-group upload-group">
-          <input type="text" placeholder="Image Caption" id="imgDesc">
-          </div>
-          <button type="button" class="btn btn-primary upload-group" onclick="confirmUpload()">SUBMIT</button>
-      </div>-->
+<!--Testing single Photo-->
+<!--<div>
+  <div>{{myPhoto.title}}</div>
+  <img ng-src="{{myPhoto.image}}">
+</div>-->
+<h1 class="center">Upload Photo</h1>
+<div class="auth upload">
+  <input type="file" id="upload" fileread="selectedFile.image" required/>
+  <div>
+    <input type="text" placeholder="Title" id="imgTitle" ng-model="selectedFile.title">
+  </div>
+  <div>
+    <input type="text" placeholder="Name" id="imgName" ng-model="selectedFile.name">
+  </div>
+  <div>
+    <input type="text" placeholder="Location" id="imgLocation" ng-model="selectedFile.location">
+  </div>
+  <div>
+    <input type="text" placeholder="Event" id="imgEvent" ng-model="selectedFile.event">
+  </div>
+  <div>
+    <input type="text" placeholder="Keywords" id="imgKeywords" ng-model="selectedFile.keywords">
+  </div>
+  <div>
+    <input type="text" placeholder="Date" id="imgDate" ng-model="selectedFile.date">
+  </div>
+  <div>
+    <input type="text" placeholder="Caption" id="imgCaption" ng-model="selectedFile.caption">
+  </div>
+  <!--<button ng-click="uploadPhoto()">UPLOAD</button>-->
+  <button ng-click="savePhoto()">SUBMIT</button>
+</div>

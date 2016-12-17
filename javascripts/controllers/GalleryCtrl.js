@@ -1,6 +1,8 @@
 "use strict";
 
-app.controller("GalleryCtrl", function ($scope, PhotoFactory) {
+app.controller("GalleryCtrl", function ($scope, $routeParams, $location, PhotoFactory) {
+    
+    // Get photos from Firebase
     $scope.photos = [];
 
     let getPhotos = function () {
@@ -9,14 +11,5 @@ app.controller("GalleryCtrl", function ($scope, PhotoFactory) {
             console.log("getPhotos function");
         });
     };
-
     getPhotos();
-
-    $scope.deletePhoto = function (photoId) {
-        PhotoFactory.deletePhoto(photoId).then(function (response) {
-            getPhotos();
-            console.log("clicked delete");
-        });
-    };
-
 });

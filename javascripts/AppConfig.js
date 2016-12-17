@@ -10,6 +10,7 @@ let isAuth = (AuthFactory) => new Promise((resolve, reject) => {
 
 app.run(function ($rootScope, $location, FIREBASE_CONFIG, AuthFactory) {
     firebase.initializeApp(FIREBASE_CONFIG);
+    var storage = firebase.storage();
 
     $rootScope.$on('$routeChangeStart', function (event, currRoute, prevRoute) {
 
@@ -36,6 +37,10 @@ app.config(function ($routeProvider) {
         .when('/gallery', {
             templateUrl: 'partials/gallery.html',
             controller: 'GalleryCtrl'
+        })
+        .when('/edit', {
+            templateUrl: 'partials/edit.html',
+            controller: 'EditCtrl'
         })
         .when('/galleries', {
             templateUrl: 'partials/galleries.html',
