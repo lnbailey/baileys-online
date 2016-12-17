@@ -12,8 +12,8 @@ app.controller("UploadCtrl", function ($scope, PhotoFactory) {
 
     $scope.savePhoto = function () {
         // Capture the file name from user input
-        console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.selectedFile);
-
+        console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.selectedFile)
+      
         PhotoFactory.addPhoto($scope.selectedFile).then(function(response){
             console.log(response);
         });
