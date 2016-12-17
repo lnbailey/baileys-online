@@ -21,9 +21,10 @@ app.controller("EditCtrl", function ($scope, $routeParams, $location, PhotoFacto
     };
 
     // Edit photo
-    $scope.editPhoto = function (photoId) {
+    $scope.editThisPhoto = function (photoId) {
+        console.log("photoId", photoId)
         PhotoFactory.editPhoto(photoId).then(function (response) {
-            getPhotos();
+            // getPhotos();
         });
         console.log("clicked editPhoto");
     };

@@ -229,6 +229,10 @@ input.item-input {
 	text-align: center;
 }
 
+.about img {
+	width: 40%;
+}
+
 @media only screen and (min-width: 400px) {
     .gallery {
         -moz-column-count: 1;

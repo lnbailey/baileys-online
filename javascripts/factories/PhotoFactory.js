@@ -48,11 +48,11 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
                     uid: photo.uid
                 })
             )
-                .success(function (deleteResponse) {
-                    resolve(deleteResponse);
+                .success(function (addResponse) {
+                    resolve(addResponse);
                 })
-                .error(function (postError) {
-                    reject(postError);
+                .error(function (addError) {
+                    reject(addError);
                 });
         });
     };
@@ -63,15 +63,16 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
                 .success(function (deleteResponse) {
                     resolve(deleteResponse);
                 })
-                .error(function (postError) {
-                    reject(postError);
+                .error(function (deleteError) {
+                    reject(deleteError);
                 });
         });
     };
     
     var editPhoto = function (photo) {
+        console.log("photo to be updated", photo)
         return $q((resolve, reject) => {
-            $http.post(`${FIREBASE_CONFIG.databaseURL}/photos/${photo}.json`,
+            $http.put(`${FIREBASE_CONFIG.databaseURL}/photos/${photo.id}.json`,
                 JSON.stringify({
                     image: photo.image,
                     title: photo.title,
@@ -81,7 +82,6 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
                     keywords: photo.keywords,
                     date: photo.date,
                     caption: photo.caption,
-                    uid: photo.uid
                 })
             )
                 .success(function (editResponse) {

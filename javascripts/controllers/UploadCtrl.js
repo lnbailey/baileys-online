@@ -5,7 +5,7 @@ app.controller("UploadCtrl", function ($scope, PhotoFactory) {
     $scope.myPhoto = {};
     
     // Only using for testing single photo
-    // PhotoFactory.getSinglePhoto("-KYvAg6H_x90lOd2Haim").then(function(singlePhoto){
+    // PhotoFactory.getSinglePhoto("KZAvDflEW0QJuwWOfeS").then(function(singlePhoto){
     //     console.log("singlePhoto", singlePhoto);
     //     $scope.myPhoto = singlePhoto;
     // });

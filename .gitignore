@@ -3,3 +3,6 @@ lib/bower_components/
 javascripts/AppConstants.js
 gallerySeed.json
 public/
+.firebaserc
+database.rules.json
+firebase.json
