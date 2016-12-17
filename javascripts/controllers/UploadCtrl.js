@@ -33,4 +33,4 @@ app.controller("GalleryCtrl", function ($scope, PhotoFactory) {
 
             // console.log("confirmUpload function");
 
-// });
+});
