@@ -1,193 +1,182 @@
 {
 	"photos": {
-		"photo3": {
-			"caption": "Uh, yes, that was tanning bed days for Ellen",
-			"date": "1985",
+		"photo1": {
+			"caption": "Young Bailey Family",
+			"date": "1967",
 			"event": "",
-			"keywords": "siblings, pets",
-			"location": "Ashland City",
-			"name": "Ellen, Wayne, Linda, Carol, Muffin, Hercules",
-			"title": "Family, Siblings",
-			"image": "http://lndesigns.com/capstone/cheatham-kids.jpg",
+			"keywords": "portrait",
+			"location": "Charleston",
+			"name": "Ellen, Wayne, Linda, Carol, Susan, Mom, Dad",
+			"title": "Family",
+			"image": "http://lndesigns.com/baileys/11-bailey-family-66.jpg",
 			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
+		},
+		"photo2": {
+			"caption": "Carol with Johnny Cash (on his front porch)",
+			"date": "1973",
+			"event": "",
+			"keywords": "celebrities",
+			"location": "Hendersonille",
+			"name": "Carol",
+			"title": "Carol",
+			"image": "http://lndesigns.com/baileys/carol-cash.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
+		},
+		"photo3": {
+			"caption": "Carol at Loveless Cafe",
+			"date": "2016",
+			"event": "",
+			"keywords": "dining",
+			"location": "Nashville",
+			"name": "Carol",
+			"title": "Carol",
+			"image": "http://lndesigns.com/baileys/carol.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
 		"photo4": {
-			"caption": "Dad flying in the eye of a hurricane in the Airforce",
-			"date": "1960",
-			"event": "airforce",
-			"keywords": "airfoce, travel",
-			"location": "Bermuda",
-			"name": "Dad",
-			"title": "Dad in Hurricane",
-			"image": "http://lndesigns.com/capstone/dad-airforce.jpg",
-			"uid": "YPpFqxkueiezWQ58uW3kXTnz6193"
+			"caption": "Carol with little Terry",
+			"date": "1970",
+			"event": "",
+			"keywords": "military, travel, pets",
+			"location": "Tampa",
+			"name": "Carol",
+			"title": "Carol",
+			"image": "http://lndesigns.com/baileys/Carol1970.jpg",
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32"
 		},
 		"photo5": {
-			"caption": "Dad in Alaska, before he married Mom",
-			"date": "1955",
+			"caption": "Deal on Dad",
+			"date": "2014",
 			"event": "",
-			"keywords": "military, travel",
-			"location": "Alaska",
-			"name": "Dad",
-			"title": "Dad in Alaska",
-			"image": "http://lndesigns.com/capstone/dad-alaska.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
-		},
-		"photo6": {
-			"caption": "Dad taking a rest while we shop in World Market",
-			"date": "2015",
-			"event": "thanksgiving",
-			"keywords": "",
+			"keywords": "thanksgiving, shopping",
 			"location": "Nashville",
 			"name": "Dad",
-			"title": "Deal on Dad",
-			"image": "http://lndesigns.com/capstone/dad-deal.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
+			"title": "Dad",
+			"image": "http://lndesigns.com/baileys/dad-deal.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
 		},
-		"photo7": {
-			"caption": "Not sure when this was",
-			"date": "1948",
-			"event": "",
-			"keywords": "military",
-			"location": "Kingsport",
-			"name": "Dad",
-			"title": "Dad in highwaters",
-			"image": "http://lndesigns.com/capstone/Dad-highwaters.jpg",
-			"uid": "YPpFqxkueiezWQ58uW3kXTnz6193"
-		},
-		"photo8": {
-			"caption": "On his way to work with 2 pencil pockets",
-			"date": "1976",
+		"photo6": {
+			"caption": "Our movie star dad",
+			"date": "1956",
 			"event": "",
 			"keywords": "style",
-			"location": "Pegram",
+			"location": "Kingsport",
 			"name": "Dad",
-			"title": "Dad Style",
-			"image": "http://lndesigns.com/capstone/DadLeisureShirt.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
+			"title": "Dad",
+			"image": "http://lndesigns.com/baileys/daddy.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
-		"photo9": {
-			"caption": "Oh the good ole' Opryland days",
-			"date": "1977",
+		"photo7": {
+			"caption": "It's a bear invasion!",
+			"date": "2009",
 			"event": "",
-			"keywords": "opryland",
-			"location": "Opryland",
-			"name": "Dad",
-			"title": "Dad at Opryland",
-			"image": "http://lndesigns.com/capstone/DadOprylandSummer1977.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
-		},
-		"photo10": {
-			"caption": "Diane and Ellen went with Carol and Tony to see Jakob in Charlotte",
-			"date": "2008",
-			"event": "Jakob Dylan",
-			"keywords": "shows",
-			"location": "Charlotte",
-			"name": "Ellen, Diane",
-			"title": "Ellen, Diane",
-			"image": "http://lndesigns.com/capstone/ellen-diane-jakob.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
-		},
-		"photo11": {
-			"caption": "Sitting on Mars Hill in Athens, Greece",
-			"date": "2000",
-			"event": "honeymoon",
-			"keywords": "travel",
-			"location": "Athens, Greece",
+			"keywords": "pets",
+			"location": "Spring Hill",
 			"name": "Ellen",
 			"title": "Ellen",
-			"image": "http://lndesigns.com/capstone/ellen-mars-hill.jpg",
-			"uid": "YPpFqxkueiezWQ58uW3kXTnz6193"
+			"image": "http://lndesigns.com/baileys/ellen-lucky.jpg",
+			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
 		},
-		"photo12": {
-			"caption": "Mom found that doll in the attic this summer!",
-			"date": "1969",
+		"photo8": {
+			"caption": "Ellen on the beach in Tampa",
+			"date": "1970",
 			"event": "",
-			"keywords": "dolls",
+			"keywords": "travel, military, beach",
 			"location": "Tampa",
 			"name": "Ellen",
 			"title": "Ellen",
-			"image": "http://lndesigns.com/capstone/Ellen-monkey.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
+			"image": "http://lndesigns.com/baileys/Ellen-monkey.jpg",
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32"
 		},
-		"photo13": {
-			"caption": "Standing in front of the Parthenon in Athens, Greece",
-			"date": "2000",
-			"event": "honeymoon",
-			"keywords": "travel",
-			"location": "Athens, Greece",
-			"name": "Ellen",
-			"title": "Ellen",
-			"image": "http://lndesigns.com/capstone/ellen-parthenon.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
+		"photo9": {
+			"caption": "Dad's shep face from the early days",
+			"date": "1956",
+			"event": "",
+			"keywords": "guitars",
+			"location": "Kingsport",
+			"name": "Dad",
+			"title": "Dad",
+			"image": "http://lndesigns.com/baileys/ey10.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
 		},
-		"photo14": {
-			"caption": "A rare photo shoot with the whole family",
+		"photo10": {
+			"caption": "A rare photo of the whole family",
 			"date": "2009",
-			"event": "photo shoot",
-			"keywords": "family",
+			"event": "portrait",
+			"keywords": "",
 			"location": "Spring Hill",
 			"name": "Mom, Dad, Wayne, Linda, Susan, Carol, Ellen",
 			"title": "Family",
-			"image": "http://lndesigns.com/capstone/family-2009.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
+			"image": "http://lndesigns.com/baileys/family-2009.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
-		"photo15": {
-			"caption": "Sisters in 1984, I think",
-			"date": "1984",
+		"photo11": {
+			"caption": "Linda in Hawaii",
+			"date": "2002",
 			"event": "",
-			"keywords": "sisters, siblings",
-			"location": "Pegram",
-			"name": "Linda, Susan, Carol, Ellen",
-			"title": "Family, Siblings, Sisters",
-			"image": "http://lndesigns.com/capstone/GirlsBackyYard1981.jpg",
-			"uid": "YPpFqxkueiezWQ58uW3kXTnz6193"
-		},
-		"photo16": {
-			"caption": "Jeremiah with his Ovation, Dad with my guitars",
-			"date": "1982",
-			"event": "christmas",
-			"keywords": "guitars, music, friends",
-			"location": "Pegram",
-			"name": "Dad, Jeremiah, Becky",
-			"title": "Dad",
-			"image": "http://lndesigns.com/capstone/guitars.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
-		},
-		"photo17": {
-			"caption": "A typical Bailey vacation, on Clingman's Dome",
-			"date": "1970",
-			"event": "vacation",
-			"keywords": "travel, siblings",
-			"location": "Clingman's Dome, Gatlinburg",
-			"name": "Wayne, Linda, Susan, Carol, Ellen",
-			"title": "Family, Siblings",
-			"image": "http://lndesigns.com/capstone/kids-clingmans-dome.jpg",
+			"keywords": "travel",
+			"location": "Hawaii",
+			"name": "Linda",
+			"title": "Linda",
+			"image": "http://lndesigns.com/baileys/linda.jpg",
 			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
 		},
-		"photo18": {
-			"caption": "Ellen with big sister, Linda, I think at a petting zoo",
-			"date": "1968",
+		"photo12": {
+			"caption": "Ellen's 10th grade picture",
+			"date": "1981",
 			"event": "",
-			"keywords": "horses, sisters",
-			"location": "Charleston",
-			"name": "Linda, Ellen",
-			"title": "Ellen and Linda",
-			"image": "http://lndesigns.com/capstone/linda-ln.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
+			"keywords": "school, style",
+			"location": "Pegram",
+			"name": "Ellen",
+			"title": "Ellen",
+			"image": "http://lndesigns.com/baileys/LN10thGrade.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
 		},
-		"photo19": {
-			"caption": "Linda with Bobby at Opryland",
-			"date": "1983",
+		"photo14": {
+			"caption": "Mom with the kids at Opryland",
+			"date": "1970",
 			"event": "",
 			"keywords": "opryland",
-			"location": "Opryland",
-			"name": "Linda, Bobby",
-			"title": "Linda",
-			"image": "http://lndesigns.com/capstone/LindaBobbyOpryland.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
+			"location": "Nashvile",
+			"name": "Mom, Wayne, Linda, Susan, Carol, Ellen",
+			"title": "Family",
+			"image": "http://lndesigns.com/baileys/mom-kids-opryland.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
-		"photo20": {
+		"photo15": {
+			"caption": "Mom being cute with her hat",
+			"date": "2008",
+			"event": "Christmas",
+			"keywords": "holiday, shopping",
+			"location": "Opry Mills, Nashville",
+			"name": "Mom",
+			"title": "Mom",
+			"image": "http://lndesigns.com/baileys/mom.jpg",
+			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
+		},
+		"photo16": {
+			"caption": "Mom with Linda in Bermuda",
+			"date": "1961",
+			"event": "",
+			"keywords": "miltary",
+			"location": "Bermuda",
+			"name": "Linda, Mom",
+			"title": "Linda",
+			"image": "http://lndesigns.com/baileys/MomLindaBermudaBoat.jpg",
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32"
+		},
+		"photo17": {
+			"caption": "Mom when she got engaged to Dad",
+			"date": "1956",
+			"event": "engagement",
+			"keywords": "",
+			"location": "Kingsport",
+			"name": "Mom",
+			"title": "Mom",
+			"image": "http://lndesigns.com/baileys/momma.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
+		},
+		"photo18": {
 			"caption": "I think Linda was still in school. Cute!",
 			"date": "1976",
 			"event": "",
@@ -195,43 +184,54 @@
 			"location": "Pegram",
 			"name": "Linda",
 			"title": "Linda",
-			"image": "http://lndesigns.com/capstone/LindaBoots.jpg",
+			"image": "http://lndesigns.com/baileys/LindaBoots.jpg",
+			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
+		},
+		"photo19": {
+			"caption": "Mom looking like a magazine ad for Gulf",
+			"date": "1953",
+			"event": "",
+			"keywords": "travel, style",
+			"location": "Kingsport",
+			"name": "Mom",
+			"title": "Mom",
+			"image": "http://lndesigns.com/baileys/MomVintageGasStation.jpg",
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32"
+		},
+		"photo20": {
+			"caption": "Susan looking like the Gerber baby",
+			"date": "1964",
+			"event": "",
+			"keywords": "",
+			"location": "Spring Hill",
+			"name": "Susan",
+			"title": "Susan",
+			"image": "http://lndesigns.com/baileys/susan-baby.jpg",
 			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
 		},
 		"photo21": {
-			"caption": "Linda singing a song she wrote",
-			"date": "1978",
-			"event": "church",
-			"keywords": "guitars, music, friends, church",
-			"location": "Freedom Chapel",
-			"name": "Linda, Ephraim",
-			"title": "Linda",
-			"image": "http://lndesigns.com/capstone/LindaNYE1979FreedomChapel.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
+			"caption": "Susan on a very rare trip to my house in TN",
+			"date": "2009",
+			"event": "",
+			"keywords": "travel",
+			"location": "Spring Hill",
+			"name": "Susan",
+			"title": "Susan",
+			"image": "http://lndesigns.com/baileys/susan-guest.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
 		},
 		"photo22": {
-			"caption": "Each one a different personality",
-			"date": "2009",
-			"event": "photo shoot",
-			"keywords": "sisters, siblings",
-			"location": "Spring Hill",
-			"name": "Linda, Susan, Carol, Ellen",
-			"title": "Sisters, Siblings",
-			"image": "http://lndesigns.com/capstone/sisters-2009.jpg",
-			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2"
+			"caption": "Susan's senior picture",
+			"date": "1980",
+			"event": "",
+			"keywords": "school, style",
+			"location": "Ashland City",
+			"name": "Susan",
+			"title": "Susan",
+			"image": "http://lndesigns.com/baileys/susan-senior.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
 		"photo23": {
-			"caption": "Check out our VW bus in the background",
-			"date": "1968",
-			"event": "",
-			"keywords": "beach, cars",
-			"location": "Tampa",
-			"name": "Wayne, Linda, Susan, Carol, Ellen",
-			"title": "Siblings",
-			"image": "http://lndesigns.com/capstone/tampa-kids.jpg",
-			"uid": "YPpFqxkueiezWQ58uW3kXTnz6193"
-		},
-		"photo24": {
 			"caption": "Cute little baby, Wayne",
 			"date": "1960",
 			"event": "",
@@ -239,10 +239,10 @@
 			"location": "Bermuda",
 			"name": "Wayne",
 			"title": "Wayne",
-			"image": "http://lndesigns.com/capstone/wayne-1960-car.jpg",
-			"uid": "2FM0erTyPWXYWSOIIBsoXKmsg293"
+			"image": "http://lndesigns.com/baileys/wayne-1960-car.jpg",
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2"
 		},
-		"photo25": {
+		"photo24": {
 			"caption": "Not sure when this was, but he was fishing with Sherrye and Bobby",
 			"date": "1995",
 			"event": "",
@@ -250,8 +250,37 @@
 			"location": "CA",
 			"name": "Wayne",
 			"title": "Wayne",
-			"image": "http://lndesigns.com/capstone/wayne-fishing.jpg",
-			"uid": "DMrLS5wW0nYlKBhwjStj0iKFK083"
+			"image": "http://lndesigns.com/baileys/wayne-fishing.jpg",
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32"
+		},
+		"photo25": {
+			"caption": "Wayne proud of his bell bottoms",
+			"date": "1976",
+			"event": "",
+			"keywords": "style",
+			"location": "Pegram",
+			"name": "Wayne",
+			"title": "Wayne",
+			"image": "http://lndesigns.com/baileys/Wayne-bells.jpg",
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2"
+		}
+	},
+	"users": {
+		"ellen": {
+			"uid": "v45mkZeSvtMHN9Nz79O0u6iFgbG2",
+			"username": "ellen"
+		},
+		"linda": {
+			"uid": "CFMEH26nP4bLshOm3DRTlKzMmOP2",
+			"username": "linda"
+		},
+		"susan": {
+			"uid": "Jd94PBVuyyXJOtGNW4r06D0OJhk2",
+			"username": "susan"
+		},
+		"carol": {
+			"uid": "BGS5Te5bEmTx91mXca68RqQzuz32",
+			"username": "carol"
 		}
 	}
 }
