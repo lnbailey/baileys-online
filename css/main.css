@@ -117,10 +117,6 @@ hr {
 	color: #999;
 }
 
-.upload {
-	font-size: 1.5em;
-}
-
 .center {
 	text-align: center;
 }
@@ -215,6 +211,36 @@ input.item-input {
 .about img {
 	max-width: 300px;
 }
+
+.upload {
+	font-size: 1.5em;
+	color: #999;
+}
+
+.upload img {
+	max-width: 300px;
+}
+
+
+
+.myFile {
+  position: relative;
+  overflow: hidden;
+  /*float: left;*/
+  clear: left;
+}
+.myFile input[type="file"] {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 100px;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+
+
 
 @media only screen and (min-width: 400px) {
     .gallery {

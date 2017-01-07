@@ -68,7 +68,7 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
                 });
         });
     };
-    
+
     var editPhoto = function (photo) {
         console.log("photo to be updated", photo);
         return $q((resolve, reject) => {
@@ -93,6 +93,6 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
         });
     };
 
-    return { getPhotoList: getPhotoList, addPhoto: addPhoto, deletePhoto: deletePhoto, editPhoto: editPhoto};
+    return { getPhotoList: getPhotoList, addPhoto: addPhoto, deletePhoto: deletePhoto, editPhoto: editPhoto };
 
 });
