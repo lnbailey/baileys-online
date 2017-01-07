@@ -70,7 +70,7 @@ app.factory("PhotoFactory", function ($q, $http, FIREBASE_CONFIG) {
     };
     
     var editPhoto = function (photo) {
-        console.log("photo to be updated", photo)
+        console.log("photo to be updated", photo);
         return $q((resolve, reject) => {
             $http.put(`${FIREBASE_CONFIG.databaseURL}/photos/${photo.id}.json`,
                 JSON.stringify({

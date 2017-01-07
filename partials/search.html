@@ -30,7 +30,7 @@
     </div>
 </div>-->
 
- <input type="text" class="form-control" placeholder="Search for ..." ng-model="searchText">
+ <input type="text" placeholder="Search for ..." ng-model="searchText">
      <div class="gallery-main">
         <div ng-repeat="photo in photos | filter:searchText" class="item">
             <img src="{{photo.image}}" />

@@ -22,7 +22,7 @@ app.controller("EditCtrl", function ($scope, $routeParams, $location, PhotoFacto
 
     // Edit photo
     $scope.editThisPhoto = function (photoId) {
-        console.log("photoId", photoId)
+        console.log("photoId", photoId);
         PhotoFactory.editPhoto(photoId).then(function (response) {
             // getPhotos();
         });

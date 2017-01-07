@@ -46,6 +46,10 @@ app.config(function ($routeProvider) {
             templateUrl: 'partials/galleries.html',
             controller: 'GalleryCtrl'
         })
+        // .when('/family', {
+        //     templateUrl: 'gallieries/family.html',
+        //     controller: 'GalleryCtrl'
+        // })
         .when('/search', {
             templateUrl: 'partials/search.html',
             controller: 'SearchCtrl'
