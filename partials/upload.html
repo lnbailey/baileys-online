@@ -7,6 +7,7 @@
 <div class="auth upload">
   <input type="file" id="upload" fileread="selectedFile.image" required/>
   <div>
+    <img ng-src="{{selectedFile.image}}" alt="Image preview..." />
     <input type="text" placeholder="Title" id="imgTitle" ng-model="selectedFile.title">
   </div>
   <div>
