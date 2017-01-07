@@ -1,6 +1,6 @@
 "use strict";
 
-app.factory("UserFactory", function($q, $http, FIREBASE_CONFIG) {
+app.factory("UserFactory", function ($q, $http, FIREBASE_CONFIG) {
 
     let addUser = (authData) => {
         return $q((resolve, reject) => {
@@ -10,10 +10,10 @@ app.factory("UserFactory", function($q, $http, FIREBASE_CONFIG) {
                     username: authData.username
                 })
             )
-                .success(function(storeUserSuccess) {
+                .success(function (storeUserSuccess) {
                     resolve(storeUserSuccess);
                 })
-                .error(function(storeUserError) {
+                .error(function (storeUserError) {
                     reject(storeUserError);
                 });
         });
@@ -22,14 +22,14 @@ app.factory("UserFactory", function($q, $http, FIREBASE_CONFIG) {
     let getUser = (userId) => {
         return $q((resolve, reject) => {
             $http.get(`${FIREBASE_CONFIG.databaseURL}/users.json?orderBy="uid"&equalTo="${userId}"`)
-                .success(function(userObject) {
+                .success(function (userObject) {
                     let users = [];
-                    Object.keys(userObject).forEach(function(key) {
+                    Object.keys(userObject).forEach(function (key) {
                         users.push(userObject[key]);
                     });
                     resolve(users[0]);
                 })
-                .error(function(error) {
+                .error(function (error) {
                     reject(error);
                 });
         });

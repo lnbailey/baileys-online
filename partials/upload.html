@@ -3,11 +3,19 @@
   <div>{{myPhoto.title}}</div>
   <img ng-src="{{myPhoto.image}}">
 </div>-->
-<h1 class="center">Upload Photo</h1>
-<div class="auth upload">
+
+<div class="auth">
+<h1 class="upload">Upload Photo</h1>
+  <label class="myFile">
+  <img src="http://lndesigns.com/baileys/browse-button.png" alt="browse" />
   <input type="file" id="upload" fileread="selectedFile.image" required/>
+  </label>
+<br>
+  <img ng-src="{{selectedFile.image}}" alt="Image preview..." />
+
+</div>
+<div class="auth">
   <div>
-    <img ng-src="{{selectedFile.image}}" alt="Image preview..." />
     <input type="text" placeholder="Title" id="imgTitle" ng-model="selectedFile.title">
   </div>
   <div>
@@ -28,6 +36,5 @@
   <div>
     <input type="text" placeholder="Caption" id="imgCaption" ng-model="selectedFile.caption">
   </div>
-  <!--<button ng-click="uploadPhoto()">UPLOAD</button>-->
   <button ng-click="savePhoto()">SUBMIT</button>
 </div>
