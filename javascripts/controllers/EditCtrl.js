@@ -1,12 +1,12 @@
 "use strict";
 
-app.controller("EditCtrl", function ($scope, $routeParams, $location, PhotoFactory) {
+app.controller("EditCtrl", function ($scope, $routeParams, $rootScope, $location, EditPhotoFactory) {
 
     // Get photos from Firebase
     $scope.photos = [];
 
     let getPhotos = function () {
-        PhotoFactory.getPhotoList().then(function (fbPhotos) {
+        EditPhotoFactory.getPhotoList($rootScope.user.uid).then(function (fbPhotos) {
             $scope.photos = fbPhotos;
             console.log("getPhotos function");
         });
@@ -15,7 +15,7 @@ app.controller("EditCtrl", function ($scope, $routeParams, $location, PhotoFacto
 
     // Delete photo
     $scope.deletePhoto = function (photoId) {
-        PhotoFactory.deletePhoto(photoId).then(function (response) {
+        EditPhotoFactory.deletePhoto(photoId).then(function (response) {
             getPhotos();
         });
     };
@@ -23,7 +23,7 @@ app.controller("EditCtrl", function ($scope, $routeParams, $location, PhotoFacto
     // Edit photo
     $scope.editThisPhoto = function (photoId) {
         console.log("photoId", photoId);
-        PhotoFactory.editPhoto(photoId).then(function (response) {
+        EditPhotoFactory.editPhoto(photoId).then(function (response) {
             // getPhotos();
         });
         console.log("clicked editPhoto");
