@@ -1,11 +1,11 @@
 "use strict";
 
-app.controller("UploadCtrl", function ($scope, PhotoFactory) {
+app.controller("UploadCtrl", function ($scope, $rootScope, $location, EditPhotoFactory) {
     $scope.selectedFile = {};
     
     // Only using for testing single photo
     // $scope.myPhoto = {};
-    // PhotoFactory.getSinglePhoto("KZAvDflEW0QJuwWOfeS").then(function(singlePhoto){
+    // EditPhotoFactory.getSinglePhoto("KZAvDflEW0QJuwWOfeS").then(function(singlePhoto){
     //     console.log("singlePhoto", singlePhoto);
     //     $scope.myPhoto = singlePhoto;
     // });
@@ -13,8 +13,9 @@ app.controller("UploadCtrl", function ($scope, PhotoFactory) {
     $scope.savePhoto = function () {
         // Capture the file name from user input
         console.log("clicked uploadPhoto and got $scope.fileInfo:", $scope.selectedFile);
-      
-        PhotoFactory.addPhoto($scope.selectedFile).then(function(response){
+      $scope.selectedFile.uid = $rootScope.user.uid;
+        EditPhotoFactory.addPhoto($scope.selectedFile).then(function(response){
+	    $location.url("/edit");
             console.log(response);
         });
     };
